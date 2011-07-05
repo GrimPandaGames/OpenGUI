@@ -1,0 +1,56 @@
+[
+  {
+	"type":"asset",
+	"icon":"OptionsBack",
+	"x":0,
+	"y":0
+  },
+  {
+	"type":"text",
+	"text":"Options",
+	"x":20,
+	"y":10,
+	"width":200,
+	"font":"system",
+	"size":25,
+	"color":"0xffdd00"
+  },
+  {
+	"id":"sound.btn",
+	"type": "toggle",
+	"toggleOn": "sound_off.png",
+	"toggleOff": "sound_on.png",
+	"x": 20,
+	"y": 65
+  },
+  {
+	"id":"twitter_connect.btn",
+	"type": "toggle",
+	"toggleOn": "twitter_connect.png",
+	"toggleOff": "twitter_logout.png",
+	"x": 20,
+	"y": 110
+  },
+  {
+	"id":"fb_connect.btn",
+	"type": "toggle",
+	"toggleOn": "fb_connect.png",
+	"toggleOff": "fb_logout.png",
+	"x": 20,
+	"y": 155
+  },
+  {
+	"id":"reset.btn",
+	"type": "button",
+	"icon": "reset.png",
+	"x": 20,
+	"y": 200
+  },
+  {
+	"id":"back.btn",
+	"type": "button",
+	"icon": "back.png",
+	"x": 5,
+	"y": 250
+  }
+]
